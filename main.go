@@ -14,7 +14,7 @@ func main() {
 
 	router.Run("localhost:8080")
 }
-
+ 
 // album represents data about a record album.
 type album struct {
 	ID     string  `json:"id"`
